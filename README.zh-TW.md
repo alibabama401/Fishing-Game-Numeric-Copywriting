@@ -41,6 +41,13 @@
 
 ![捕魚遊戲數值文案 战斗场景 3 產品截圖](docs/assets/screenshots/zhandou3.jpg)
 
+## 📞联系
+
+
+
+| **Telegram** | @alibabama401 |
+
+| **Email** | ttpoker733@gmail.com |
 ## 核心能力
 
 - 捕魚遊戲大廳、經典模式、比賽模式和戰鬥場景展示
@@ -56,17 +63,7 @@
 - 遊戲數值策劃、文案配置和產品方案整理
 - GitHub Pages 專案首頁與搜尋引擎優化
 
-## GitHub Pages
 
-專案首頁檔案位於 `docs/index.html`。如果使用 GitHub Pages，推薦設定：
-
-- Source：Deploy from a branch
-- Branch：main
-- Folder：/docs
-
-發布地址：
-
-https://alibabama401.github.io/Fishing-Game-Numeric-Copywriting/
 
 ## 關鍵詞
 
