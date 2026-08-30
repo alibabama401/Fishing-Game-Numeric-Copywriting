@@ -1,10 +1,13 @@
 <div align="center">
-# 🎣 捕鱼游戏核心数值文案 | 捕魚遊戲核心數值文案 | 捕鱼源码|街机捕鱼|钓鱼|Fishing Game Numeric Copywriting|
+
+# 捕鱼源码|街机捕鱼| 捕鱼游戏数值文案源码｜Fishing Game Numeric Copywriting
+
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+
 **日流水几百万 · 龙头产品数值体系 · 提升爽快感/留存/付费**
 
 [![Contact](https://img.shields.io/badge/联系-Telegram-blue.svg)](https://t.me/alibabama401)
 
-**简体中文 · 繁體中文 · English**
 
 </div>
 
@@ -60,10 +63,34 @@
 这套数值来自**日流水几百万的龙头产品**，帮你**跳过反复调优的试错成本**。
 
 ---
+## 产品截图
 
-## 📞 获取完整数值文案 | How to Get
+![捕鱼游戏数值文案 经典模式 产品截图](docs/assets/screenshots/classic-mode.png)
 
-如需获取**完整的捕鱼游戏核心数值文案（日流水几百万产品验证）**，请联系：
+![捕鱼游戏数值文案 锻造系统 产品截图](docs/assets/screenshots/duanzhao.jpg)
+
+![捕鱼游戏数值文案 海魔来袭 产品截图](docs/assets/screenshots/haimo.png)
+
+![捕鱼游戏数值文案 玉石场 产品截图](docs/assets/screenshots/jade-arena.jpg)
+
+![捕鱼游戏数值文案 经典捕鱼 产品截图](docs/assets/screenshots/jingdian.png)
+
+![捕鱼游戏数值文案 游戏大厅 产品截图](docs/assets/screenshots/lobby.png)
+
+![捕鱼游戏数值文案 比赛模式 产品截图](docs/assets/screenshots/tournament-mode.png)
+
+![捕鱼游戏数值文案 休闲小游戏 1 产品截图](docs/assets/screenshots/xiaoyouxi1.png)
+
+![捕鱼游戏数值文案 休闲小游戏 2 产品截图](docs/assets/screenshots/xiaoyouxi2.png)
+
+![捕鱼游戏数值文案 玉石大厅 产品截图](docs/assets/screenshots/yushidating.png)
+
+![捕鱼游戏数值文案 战斗场景 2 产品截图](docs/assets/screenshots/zhandou2.jpg)
+
+![捕鱼游戏数值文案 战斗场景 3 产品截图](docs/assets/screenshots/zhandou3.jpg)
+
+## 📞联系
+
 
 | 渠道 | 账号 |
 |:---|:---|
@@ -95,6 +122,9 @@ A：购买后提供数值配置方面的技术支持。
 
 **如果这套数值对你有帮助，欢迎点个 Star 支持一下！**  
 ⭐️ **Star** ⭐️
+## 关键词
+
+捕鱼游戏源码、捕鱼数值文案、街机捕鱼、捕鱼比赛模式、玉石场、海魔来袭、Fishing game source code、arcade fishing game、game numeric design、game copywriting。
 
 </div>
 
