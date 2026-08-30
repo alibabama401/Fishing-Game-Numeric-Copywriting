@@ -41,6 +41,14 @@ This repository focuses on **Fishing Game Numeric Copywriting**. It can be used 
 
 ![Fishing game numeric copywriting screenshot - 战斗场景 3](docs/assets/screenshots/zhandou3.jpg)
 
+## 📞联系
+
+
+
+| **Telegram** | @alibabama401 |
+
+| **Email** | ttpoker733@gmail.com |
+
 ## Core Capabilities
 
 - Fishing game lobby, classic mode, tournament mode, and battle scene presentation
@@ -56,17 +64,6 @@ This repository focuses on **Fishing Game Numeric Copywriting**. It can be used 
 - Game numeric design, copywriting configuration, and product solution organization
 - GitHub Pages homepage and search engine optimization
 
-## GitHub Pages
-
-The project homepage file is located at `docs/index.html`. For GitHub Pages, use:
-
-- Source: Deploy from a branch
-- Branch: main
-- Folder: /docs
-
-Published URL:
-
-https://alibabama401.github.io/Fishing-Game-Numeric-Copywriting/
 
 ## Keywords
 
