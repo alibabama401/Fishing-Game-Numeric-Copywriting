@@ -82,6 +82,10 @@ An evidence-based guide to gameplay modes, balance variables, Unity Lua entry po
 
 *Battle scene and reward feedback*
 
+## Contact and Usage Instructions
+
+- Email: [ttpoker40@gmail.com](mailto:ttpoker40@gmail.com)
+- Telegram: [@alibabama401](https://t.me/alibabama401)
 ## Repository scope
 
 This README describes evidence visible in the public repository. Verify build dependencies, completeness, licenses, security, and asset rights before integration. Search visibility can improve, but no ranking position is guaranteed.
