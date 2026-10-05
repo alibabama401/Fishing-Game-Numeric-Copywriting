@@ -1,74 +1,87 @@
-# Fishing Game Numeric Copywriting
+# Fishing Game Numeric Design and Configuration
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+[简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · **English** · [Visual product page](https://alibabama401.github.io/Fishing-Game-Numeric-Copywriting/en/)
 
-This project focuses on fishing games, arcade fishing, tournament mode, jade arena, sea monster events, casual mini-games, numeric configuration, and product copywriting systems. It is suitable for product presentation, technical evaluation, secondary development, numeric design reference, private deployment, and GitHub Pages SEO optimization.
+An evidence-based guide to gameplay modes, balance variables, Unity Lua entry points, Proto3 protocol files, and real tuning screenshots for arcade fishing projects.
 
-## Reading and Download
+**fishing game numeric design · game balance · gameplay configuration · Unity Lua · Protobuf · arcade fishing game**
 
-- Online homepage: https://alibabama401.github.io/Fishing-Game-Numeric-Copywriting/
-- GitHub repository: https://github.com/alibabama401/Fishing-Game-Numeric-Copywriting
-- Please read this README first, then check the published product page from `docs/index.html`.
-- To download the source code, click `Code` in the upper-right corner of the repository and choose `Download ZIP`.
+![Fishing game lobby and mode selection](docs/assets/screenshots/lobby.png)
 
-## Project Positioning
+## Overview
 
-This repository focuses on **Fishing Game Numeric Copywriting**. It can be used to present fishing game modes, room lobbies, classic mode, tournament mode, jade arena, sea monster gameplay, battle scenes, event configuration, and numeric copywriting structure.
+- GitHub: https://github.com/alibabama401/Fishing-Game-Numeric-Copywriting
+- Pages: https://alibabama401.github.io/Fishing-Game-Numeric-Copywriting/
+- Explore fishing game balance variables, classic and tournament modes, jade and sea-monster events, Unity Lua integration, Proto3 messages, and 12 real screenshots.
 
-## Product Screenshots
+## Features and gameplay
 
-![Fishing game numeric copywriting screenshot - 经典模式](docs/assets/screenshots/classic-mode.png)
+| Area | Evidence-based description |
+| --- | --- |
+| Core balance variables | Fish health and value, spawn frequency, cannon damage, critical chance, and projectile speed. |
+| Modes and events | Classic mode, tournament mode, jade arena, sea-monster events, forging, and casual mini-games. |
+| Feedback and tuning | Battle screenshots show reward feedback, cannon multiplier unlocks, task goals, and debug overlays. |
+| Configuration and protocols | Lua entry points, Unity helpers, asset-bundle references, and multiple Proto3 message definitions. |
 
-![Fishing game numeric copywriting screenshot - 锻造系统](docs/assets/screenshots/duanzhao.jpg)
+## Technology evidence
 
-![Fishing game numeric copywriting screenshot - 海魔来袭](docs/assets/screenshots/haimo.png)
+| Evidence | What it shows |
+| --- | --- |
+| Unity and Lua evidence | `Main.lua` references Unity helpers, CS-to-Lua integration, asset bundles, localization, audio, and network services. |
+| Protocol layer | Public `.proto.bytes` files use Proto3 for login, hall, activity, chat, club, mail, records, and configuration messages. |
+| Design variables | Repository documentation covers fish health/value, spawn frequency, cannon damage, critical chance, and projectile speed. |
+| Evidence boundary | Screenshots demonstrate modes and tuning overlays; performance or revenue outcomes are not asserted without reproducible data. |
 
-![Fishing game numeric copywriting screenshot - 玉石场](docs/assets/screenshots/jade-arena.jpg)
+## Product screenshots
 
-![Fishing game numeric copywriting screenshot - 经典捕鱼](docs/assets/screenshots/jingdian.png)
+![Fishing game lobby and mode selection](docs/assets/screenshots/lobby.png)
 
-![Fishing game numeric copywriting screenshot - 游戏大厅](docs/assets/screenshots/lobby.png)
+*Fishing game lobby and mode selection*
 
-![Fishing game numeric copywriting screenshot - 比赛模式](docs/assets/screenshots/tournament-mode.png)
+![Classic fishing mode](docs/assets/screenshots/classic-mode.png)
 
-![Fishing game numeric copywriting screenshot - 休闲小游戏 1](docs/assets/screenshots/xiaoyouxi1.png)
+*Classic fishing mode*
 
-![Fishing game numeric copywriting screenshot - 休闲小游戏 2](docs/assets/screenshots/xiaoyouxi2.png)
+![Fishing tournament mode](docs/assets/screenshots/tournament-mode.png)
 
-![Fishing game numeric copywriting screenshot - 玉石大厅](docs/assets/screenshots/yushidating.png)
+*Fishing tournament mode*
 
-![Fishing game numeric copywriting screenshot - 战斗场景 2](docs/assets/screenshots/zhandou2.jpg)
+![Sea monster event mode](docs/assets/screenshots/haimo.png)
 
-![Fishing game numeric copywriting screenshot - 战斗场景 3](docs/assets/screenshots/zhandou3.jpg)
+*Sea monster event mode*
 
-## 📞联系
+![Jade arena gameplay](docs/assets/screenshots/jade-arena.jpg)
 
+*Jade arena gameplay*
 
+![Jade arena lobby](docs/assets/screenshots/yushidating.png)
 
-| **Telegram** | @alibabama401 |
+*Jade arena lobby*
 
-| **Email** | ttpoker733@gmail.com |
+![Classic fish-shooting battle](docs/assets/screenshots/jingdian.png)
 
-## Core Capabilities
+*Classic fish-shooting battle*
 
-- Fishing game lobby, classic mode, tournament mode, and battle scene presentation
-- Jade arena, sea monster events, mini-games, and activity gameplay content
-- Numeric configuration, gameplay copywriting, product description, and operation content organization
-- Suitable for secondary development, UI improvement, gameplay expansion, and private deployment
-- Can be published through GitHub Pages for Google and Bing indexing
+![Cannon forging system](docs/assets/screenshots/duanzhao.jpg)
 
-## Use Cases
+*Cannon forging system*
 
-- Fishing game source code and product copywriting presentation
-- Arcade fishing, tournament fishing, casual games, and activity gameplay reference
-- Game numeric design, copywriting configuration, and product solution organization
-- GitHub Pages homepage and search engine optimization
+![Casual fishing mini-game interface](docs/assets/screenshots/xiaoyouxi1.png)
 
+*Casual fishing mini-game interface*
 
-## Keywords
+![Casual fishing mini-game interface](docs/assets/screenshots/xiaoyouxi2.png)
 
-Fishing game source code, arcade fishing game, fishing numeric copywriting, tournament fishing, jade arena, sea monster gameplay, game numeric design, game copywriting.
+*Casual fishing mini-game interface*
 
-## Disclaimer
+![Battle debug and numeric feedback](docs/assets/screenshots/zhandou2.jpg)
 
-This project is intended for software source code presentation, product copywriting organization, technical research, product evaluation, and compliant entertainment system development. Please use it legally according to local laws and platform rules.
+*Battle debug and numeric feedback*
+
+![Battle scene and reward feedback](docs/assets/screenshots/zhandou3.jpg)
+
+*Battle scene and reward feedback*
+
+## Repository scope
+
+This README describes evidence visible in the public repository. Verify build dependencies, completeness, licenses, security, and asset rights before integration. Search visibility can improve, but no ranking position is guaranteed.

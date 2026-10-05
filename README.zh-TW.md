@@ -1,74 +1,87 @@
-# 捕魚遊戲數值文案原始碼｜Fishing Game Numeric Copywriting
+# 捕魚數值文案與玩法設定
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+[简体中文](README.zh-CN.md) · **繁體中文** · [English](README.en.md) · [圖文產品頁](https://alibabama401.github.io/Fishing-Game-Numeric-Copywriting/zh-tw/)
 
-本專案面向捕魚遊戲、街機捕魚、比賽模式、玉石場、海魔來襲、休閒小遊戲、數值配置和產品文案體系，適合用於產品展示、技術評估、二次開發、數值策劃參考、私有化部署和 GitHub Pages 搜尋優化。
+面向捕魚數值文案、玩法設定與遊戲策劃搜尋需求，整理模式結構、數值變數、Unity Lua 入口、Proto3 協定檔案和真實除錯截圖。
 
-## 閱讀與下載
+**捕魚數值文案 · 捕魚玩法設定 · 捕魚遊戲策劃 · 遊戲平衡 · Unity Lua · Protobuf · 街機捕魚**
 
-- 線上首頁：https://alibabama401.github.io/Fishing-Game-Numeric-Copywriting/
-- GitHub 倉庫：https://github.com/alibabama401/Fishing-Game-Numeric-Copywriting
-- 建議先閱讀本 README，再查看 `docs/index.html` 發布後的產品首頁。
-- 如果需要下載原始碼，請在倉庫右上角點擊 `Code`，再選擇 `Download ZIP`。
+![捕魚遊戲大廳與模式選擇](docs/assets/screenshots/lobby.png)
 
-## 專案定位
+## 專案概覽
 
-本倉庫聚焦 **Fishing Game Numeric Copywriting**，可用於展示捕魚遊戲玩法、房間大廳、經典模式、比賽模式、玉石場、海魔玩法、戰鬥場景、活動配置和數值文案結構。
+- GitHub: https://github.com/alibabama401/Fishing-Game-Numeric-Copywriting
+- Pages: https://alibabama401.github.io/Fishing-Game-Numeric-Copywriting/
+- 展示捕魚遊戲數值文案、經典與比賽模式、玉石場和海魔活動，並結合 Unity Lua、Proto3 協定、設定變數、除錯場景及 12 張真實產品截圖。
+
+## 功能與玩法
+
+| Area | Evidence-based description |
+| --- | --- |
+| 核心數值變數 | 魚的血量與分值、刷新頻率、砲台傷害、暴擊概率、子彈速度。 |
+| 模式與活動設定 | 經典模式、比賽模式、玉石場、海魔來襲、鍛造與休閒小遊戲。 |
+| 回饋與除錯 | 戰鬥截圖展示獎勵回饋、砲倍解鎖、任務目標及除錯數值覆蓋層。 |
+| 設定與協定 | Lua 入口、Unity 輔助模組、AssetBundle 相關引用和多組 Proto3 訊息定義。 |
+
+## 技術證據
+
+| Evidence | What it shows |
+| --- | --- |
+| Unity 與 Lua 證據 | `Main.lua` 引用了 Unity 輔助模組、CS2Lua、AssetBundle、本地化、音訊與網路服務。 |
+| 協定層 | 公開 `.proto.bytes` 檔案使用 Proto3，涵蓋登入、大廳、活動、聊天、俱樂部、郵件、記錄與設定訊息。 |
+| 數值設計變數 | 倉庫說明涉及魚的血量/分值、刷新頻率、砲台傷害、暴擊概率和子彈速度。 |
+| 證據邊界 | 截圖可證明玩法模式與除錯涵蓋；沒有可重現資料時，不宣稱流水、留存或付費提升。 |
 
 ## 產品截圖
 
-![捕魚遊戲數值文案 经典模式 產品截圖](docs/assets/screenshots/classic-mode.png)
+![捕魚遊戲大廳與模式選擇](docs/assets/screenshots/lobby.png)
 
-![捕魚遊戲數值文案 锻造系统 產品截圖](docs/assets/screenshots/duanzhao.jpg)
+*捕魚遊戲大廳與模式選擇*
 
-![捕魚遊戲數值文案 海魔来袭 產品截圖](docs/assets/screenshots/haimo.png)
+![經典捕魚模式](docs/assets/screenshots/classic-mode.png)
 
-![捕魚遊戲數值文案 玉石场 產品截圖](docs/assets/screenshots/jade-arena.jpg)
+*經典捕魚模式*
 
-![捕魚遊戲數值文案 经典捕鱼 產品截圖](docs/assets/screenshots/jingdian.png)
+![捕魚比賽模式](docs/assets/screenshots/tournament-mode.png)
 
-![捕魚遊戲數值文案 游戏大厅 產品截圖](docs/assets/screenshots/lobby.png)
+*捕魚比賽模式*
 
-![捕魚遊戲數值文案 比赛模式 產品截圖](docs/assets/screenshots/tournament-mode.png)
+![海魔來襲活動玩法](docs/assets/screenshots/haimo.png)
 
-![捕魚遊戲數值文案 休闲小游戏 1 產品截圖](docs/assets/screenshots/xiaoyouxi1.png)
+*海魔來襲活動玩法*
 
-![捕魚遊戲數值文案 休闲小游戏 2 產品截圖](docs/assets/screenshots/xiaoyouxi2.png)
+![玉石場玩法](docs/assets/screenshots/jade-arena.jpg)
 
-![捕魚遊戲數值文案 玉石大厅 產品截圖](docs/assets/screenshots/yushidating.png)
+*玉石場玩法*
 
-![捕魚遊戲數值文案 战斗场景 2 產品截圖](docs/assets/screenshots/zhandou2.jpg)
+![玉石場大廳](docs/assets/screenshots/yushidating.png)
 
-![捕魚遊戲數值文案 战斗场景 3 產品截圖](docs/assets/screenshots/zhandou3.jpg)
+*玉石場大廳*
 
-## 📞联系
+![經典捕魚戰鬥](docs/assets/screenshots/jingdian.png)
 
+*經典捕魚戰鬥*
 
+![砲台鍛造系統](docs/assets/screenshots/duanzhao.jpg)
 
-| **Telegram** | @alibabama401 |
+*砲台鍛造系統*
 
-| **Email** | ttpoker733@gmail.com |
-## 核心能力
+![休閒捕魚小遊戲介面一](docs/assets/screenshots/xiaoyouxi1.png)
 
-- 捕魚遊戲大廳、經典模式、比賽模式和戰鬥場景展示
-- 玉石場、海魔來襲、小遊戲和活動玩法內容展示
-- 數值配置、玩法文案、產品說明和營運內容整理
-- 適合二次開發、介面優化、玩法擴展和私有化部署
-- 可透過 GitHub Pages 發布專案首頁，方便 Google 和 Bing 收錄
+*休閒捕魚小遊戲介面一*
 
-## 適用場景
+![休閒捕魚小遊戲介面二](docs/assets/screenshots/xiaoyouxi2.png)
 
-- 捕魚遊戲原始碼與產品文案展示
-- 街機捕魚、比賽捕魚、休閒遊戲和活動玩法參考
-- 遊戲數值策劃、文案配置和產品方案整理
-- GitHub Pages 專案首頁與搜尋引擎優化
+*休閒捕魚小遊戲介面二*
 
+![戰鬥除錯與數值回饋](docs/assets/screenshots/zhandou2.jpg)
 
+*戰鬥除錯與數值回饋*
 
-## 關鍵詞
+![戰鬥場景與獎勵回饋](docs/assets/screenshots/zhandou3.jpg)
 
-捕魚遊戲原始碼、捕魚數值文案、街機捕魚、捕魚比賽模式、玉石場、海魔來襲、Fishing game source code、arcade fishing game、game numeric design、game copywriting。
+*戰鬥場景與獎勵回饋*
 
-## 免責聲明
+## 倉庫範圍
 
-本專案用於軟體原始碼展示、產品文案整理、技術研究、產品評估和合規娛樂系統開發。請根據所在地法律法規和平台規則合法合規使用。
+本 README 僅描述公開倉庫中可見的證據。整合前請核對建置依賴、完整度、授權、安全性與素材權屬。搜尋可見度可以改善，但不能保證固定排名。
