@@ -82,6 +82,12 @@
 
 *戰鬥場景與獎勵回饋*
 
+
+## 联系与使用说明
+
+- Email: [ttpoker40@gmail.com](mailto:ttpoker40@gmail.com)
+- Telegram: [@alibabama401](https://t.me/alibabama401)
+
 ## 倉庫範圍
 
 本 README 僅描述公開倉庫中可見的證據。整合前請核對建置依賴、完整度、授權、安全性與素材權屬。搜尋可見度可以改善，但不能保證固定排名。
